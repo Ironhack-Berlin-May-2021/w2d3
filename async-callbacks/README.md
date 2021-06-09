@@ -23,6 +23,7 @@ For operations that take an unpredictable amount of time we use async functional
 Then the async function runs in the background and the rest of the code can continue to execute. 
 
 ### Example - fast enough (or inexpensive) so we don't have to make it asynchronous
+
 ```js
 function getFirstElementOfArray (array) {
     return array[0];
